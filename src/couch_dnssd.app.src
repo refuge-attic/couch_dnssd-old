@@ -1,0 +1,2 @@
+%% -*- mode: Erlang; -*-
+{application, couch_dnssd, [{vsn, "0.0.1"}]}.
