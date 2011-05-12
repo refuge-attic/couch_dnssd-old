@@ -20,7 +20,7 @@
 -module(couch_dnssd).
 -behaviour(gen_server).
 
--include("couch_db.hrl").
+-include("couch/include/couch_db.hrl").
 
 -export([start_link/0, handle_dnssd_req/1]).
 
